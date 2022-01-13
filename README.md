@@ -98,7 +98,7 @@ Interpretation: Program that executes the source code that has just been transla
   ``
 ----------------------------------
 |Division | Quotient |  Binary   |
-|by 16    | integer  | remainder |
+|by 2     | integer  | remainder |
 |---------|----------|-----------|
 | 1999/2  |   999    |     1     |
 | 999/2   |   499    |     1     |
@@ -115,8 +115,8 @@ Interpretation: Program that executes the source code that has just been transla
 [The value in binary is: 11111001111]
 
 --------------------------------------------------
-|Division | Quotient |           |               |
-|by 16    | integer  |  Decimal  |  Hexadecimal  |
+|Division | Quotient |  Decimal  |  Hexadecimal  |
+|by 16    | integer  | remainder |   remainder   |
 |---------|----------|-----------|---------------|
 | 1999/16 |   124    |    15     |     F         |
 | 124/16  |   7	     |    12     |     C         |
