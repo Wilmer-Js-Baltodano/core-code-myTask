@@ -39,11 +39,11 @@ FinAlgoritmo``
 
 #### Desafío 4: Leer sobre Pseudocode.
            **Respuesta: Tarea completada.**
-           *El pseudocódigo es codigo falso, que nos permite de una forma informal escribir "programas" en los que se representa la secuencia de acciones e instrucciones e decir algoritmos que son simples de entender*.
+           *El pseudocódigo es codigo falso, que nos permite de una forma informal escribir programas en los que se representa la secuencia de acciones e instrucciones e decir algoritmos que son simples de entender*.
            
 #### Desafío 5: ¿Por qué es útil el pseudocódigo?
           **Respuesta: Tarea completada.**
-          *El pseudocódigo es util porque nos permite comprender de una forma simple adentrarnos a la programación, permite planificar instrucciones que siguen un patrón lógico, sin incluir todos los detalles técnicos*.
+          *El pseudocódigo es util porque nos permite de forma simple adentrarnos a la programación, ya que permite planificar instrucciones que siguen un patrón lógico, sin incluir todos los detalles técnicos*.
 
 #### Desafío 6: Cree un pseudocódigo para calcular la edad aproximada de una base de usuarios en el año en que nacieron. 
           **Respuesta: Tarea completada.**
