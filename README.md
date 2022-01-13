@@ -1,19 +1,18 @@
 # core-code-myTask
- Mis tareas 
- 
-# Primera semana
 
-### Desafío 1: video sobre compilación e interpretación.
-   **Respuesta: Tarea completada.**
-   *La compilación: Proceso de traducción a través de un programa llamado compilador, este crea un archivo independiente que no necesita ningún otro programa para ejecutarse a sí mismo. 
-   Interpretación: Programa que ejecuta el código fuente que acaba de ser traducido a una forma intermedia, o puede hacer referencia al programa que lleva a cabo tanto la traducción como la ejecución.*
+# First week’s chores
+
+### Challenge 1: video compilation and interpretation.
+  **Answer: Task Completed.**
+  *Compilation: Is a translation process through a program called a compiler, which creates a separate file that does not need any other program to run it. 
+Interpretation: Program that executes the source code that has just been translated into an intermediate form, or can refer to the program that performs both the translation and the execution.*
             
-### Desafío 2: ¿El lenguaje Java se compila o interpreta?.
-   **Respuesta: Tarea completada.**
-  *Java sí es un lenguaje compilado, ya que utiliza un proceso de compilación de dos pasos. El código es ejecutado por una máquina virtual Java (JVM), las cuales utilizan una técnica llamada compilación Just-in-Time (JIT) para compilar el código en instrucciones nativas entendidas por la CPU.*
+### Challenge 2: Is Java a language that is compiled or interpreted?.
+   **Answer: Task Completed.**
+   *Java is a compiled language, since it uses a two-step compilation process. The code is executed by a Java virtual machine (JVM), which uses a technique called Just-in-Time compilation (JIT) to compile the code into native instructions understood by the CPU.*
            
-###  Desafío 3: Cree un algoritmo para calcular el equivalente de su moneda local a USD.
-   **Respuesta: Tarea completada.**
+### Challenge 3: Create an algorithm to calculate the equivalent of your local currency to USD
+   **Answer: Task Completed.**
    ``
    Algoritmo cambio_divisa
 
@@ -40,16 +39,16 @@
    FinAlgoritmo
    ``
 
-### Desafío 4: Leer sobre Pseudocode.
-   **Respuesta: Tarea completada.**
-   *El pseudocódigo es codigo falso, que nos permite de una forma informal escribir programas en los que se representa la secuencia de acciones e instrucciones e decir algoritmos que son simples de entender*.
+### Challenge 4: Read about Pseudocode.
+   **Answer: Task Completed.**
+   *Pseudocode is fake code, which allows us to informally write programs that represent the sequence of actions and instructions and say algorithms that are easy to understand.*
            
-#### Desafío 5: ¿Por qué es útil el pseudocódigo?
-   **Respuesta: Tarea completada.**
-   *El pseudocódigo es util porque nos permite de forma simple adentrarnos a la programación, ya que permite planificar instrucciones que siguen un patrón lógico, sin incluir todos los detalles técnicos*.
+### Challenge 5: Why is pseudocode useful?
+   **Answer: Task Completed.**
+   *The pseudocode is useful because it allows us to simply enter the programming, since it allows us to plan instructions that follow a logical pattern, without including all the technical details.*
 
-### Desafío 6: Cree un pseudocódigo para calcular la edad aproximada de una base de usuarios en el año en que nacieron. 
-   **Respuesta: Tarea completada.**
+### Challenge 6: Create a pseudocode to calculate the approximate age of a user base in the year they were born. 
+   **Answer: Task Completed.**
    ``
    Algoritmo calculo_edades
 
@@ -72,11 +71,15 @@
    FinAlgoritmo
    ``
           
-### Desafío 7: Lea sobre diagramas de flujo.
-   **Respuesta**: en proceso.
+### Challenge 7: Read about flow diagrams.
+  **Answer: Task Completed.**
+  *A flowchart is a diagram that describes a process or computer algorithm. They are widely used in many fields to plan and communicate processes that are often complex in diagrams that are easy to understand.*
 
-### Desafío 8: ¿Por qué los diagramas de flujo son importantes para nosotros como desarrolladores?.
-   **Respuesta**: en proceso.
-
-### Desafío 9: Busque sobre idiomas de alto nivel e idiomas de bajo nivel.
-   **Respuesta**: en proceso.
+### Challenge 8: Why are flowcharts important to us as developers?
+  **Answer: Task Completed.**
+   *Flow diagrams for us as developers are important because they allow us to schematic certain logical processes of creating a program.*
+   
+### Challenge 9: Search for high-level languages and low-level languages.
+  **Answer: Task Completed.**
+  *High-Level: They are those that are closer to natural language than machine language. They are aimed at solving problems by using Dynamic Data Structures.
+  Low-Level: They are totally machine-dependent languages, meaning that the program that is performed with this type of language cannot be migrated or used in other machines.*
