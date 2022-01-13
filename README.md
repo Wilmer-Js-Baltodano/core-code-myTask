@@ -13,31 +13,31 @@ Interpretation: Program that executes the source code that has just been transla
            
 ### Challenge 3: Create an algorithm to calculate the equivalent of your local currency to USD
    **Answer: Task Completed.**
-   ``
-   Algoritmo cambio_divisa
+```
+Algoritmo cambio_divisa
 
-   // "moneda_local (a)", dinero que se estará en la moneda.
-   // "equivalente (b)", tasa de conversión (modena extranjera), 
-   // "result_mult (c)", resultado del dinero que se obtendrá tras el cambio. 
+// "moneda_local (a)", dinero que se estará en la moneda.
+// "equivalente (b)", tasa de conversión (modena extranjera), 
+// "result_mult (c)", resultado del dinero que se obtendrá tras el cambio. 
 
-   // Formululas:
-   // a * b = c (c = a * b)
-   // a = c/b, da como resutado la forma invertida de la conversión
+// Formululas:
+// a * b = c (c = a * b)
+// a = c/b, da como resutado la forma invertida de la conversión
 
-   // Declaración de variable tipo boleanas
-   Definir moneda_local, equivalente, resultado como real;
+// Declaración de variable tipo boleanas
+Definir moneda_local, equivalente, resultado como real;
 
-   moneda_local = 0.00000;
-   equivalente = 0.00157;
+moneda_local = 0.00000;
+equivalente = 0.00157;
 
-   Escribir "Escriba la cantidad en colones a convertir:" ;
-   leer moneda_local; //captura el valor por teclado 
+Escribir "Escriba la cantidad en colones a convertir:" ;
+leer moneda_local; //captura el valor por teclado 
 
-   resultado <- moneda_local * equivalente; //cálculo que permite la conversión a dolar USD
-   Escribir "El resultado es: ", resultado, " USD";
+resultado <- moneda_local * equivalente; //cálculo que permite la conversión a dolar USD
+Escribir "El resultado es: ", resultado, " USD";
 
-   FinAlgoritmo
-   ``
+FinAlgoritmo
+```
 
 ### Challenge 4: Read about Pseudocode.
    **Answer: Task Completed.**
@@ -49,27 +49,27 @@ Interpretation: Program that executes the source code that has just been transla
 
 ### Challenge 6: Create a pseudocode to calculate the approximate age of a user base in the year they were born. 
    **Answer: Task Completed.**
-   ``
-   Algoritmo calculo_edades
+```
+Algoritmo calculo_edades
 
-   // Descripción: Cree un pseudocódigo para calcular la edad aproximada de una base de usuarios en el año en que nacieron 
+// Descripción: Cree un pseudocódigo para calcular la edad aproximada de una base de usuarios en el año en que nacieron 
 
-   // Declaración de variables
-   definir anioActual, anioNacim, edadPersona como entero;
+// Declaración de variables
+definir anioActual, anioNacim, edadPersona como entero;
 
-   anioActual <- 2022;
+anioActual <- 2022;
 
-   // Se espera a que el usuario ingrese un valor y presiones enter.
-   Escribir "Ingrese su año de nacimiento: ";
-   leer anioNacim;
+// Se espera a que el usuario ingrese un valor y presiones enter.
+Escribir "Ingrese su año de nacimiento: ";
+leer anioNacim;
 
-   // Se realiza el proceso de cálculo.
-   edadPersona <- anioActual - anioNacim;
+// Se realiza el proceso de cálculo.
+edadPersona <- anioActual - anioNacim;
 
-   // Se iprimir por pantalla la edad actual de la persona.
-   Escribir "Su edad es: ", edadPersona, " años";
-   FinAlgoritmo
-   ``
+// Se iprimir por pantalla la edad actual de la persona.
+Escribir "Su edad es: ", edadPersona, " años";
+FinAlgoritmo
+```
           
 ### Challenge 7: Read about flow diagrams.
   **Answer: Task Completed.**
@@ -110,7 +110,7 @@ Interpretation: Program that executes the source code that has just been transla
 | 7 / 2         |     3            |       1          |
 | 3 / 2         |     1            |       1          |
 | 1 / 2         |     0            |       1          |
-|------------------------------------------------------|
+
 [The value in binary is: 11111001111]
 
 
@@ -119,6 +119,6 @@ Interpretation: Program that executes the source code that has just been transla
 | 1999 / 16      |     124          |       15          |       F               |
 | 124 / 16       |     7	           |       12          |       C               |
 | 7 / 16	        |     0	           |       7           |       7               |
-|-------------------------------------------------------------------------------|
+
 [The value in hexadec is: 7CF]
   ``
