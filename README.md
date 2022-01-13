@@ -96,7 +96,7 @@ Interpretation: Program that executes the source code that has just been transla
 ### Translate the year you were born to binary, decimal, and hexadecimal
   **Answer: Task Completed.**
   ``
-..................................
+----------------------------------
 |Division | Quotient |  Binary   |
 |by 16    | integer  | remainder |
 |---------|----------|-----------|
@@ -114,7 +114,7 @@ Interpretation: Program that executes the source code that has just been transla
 |---------|----------|-----------|
 [The value in binary is: 11111001111]
 
-..................................................
+--------------------------------------------------
 |Division | Quotient |           |               |
 |by 16    | integer  |  Decimal  |  Hexadecimal  |
 |---------|----------|-----------|---------------|
