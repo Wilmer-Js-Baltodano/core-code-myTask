@@ -1,6 +1,6 @@
 # core-code-myTask
 
-# First week’s chores
+# Challenges of the week (Tuesday)💻--------------------------------------------------------
 
 ### Challenge 1: video compilation and interpretation.
   **Answer: Task Completed.**
@@ -83,3 +83,44 @@ Interpretation: Program that executes the source code that has just been transla
   **Answer: Task Completed.**
   *High-Level: They are those that are closer to natural language than machine language. They are aimed at solving problems by using Dynamic Data Structures.
   Low-Level: They are totally machine-dependent languages, meaning that the program that is performed with this type of language cannot be migrated or used in other machines.*
+
+
+# Challenges of the week (Wednesday) 💻--------------------------------------------------------
+
+### More information on binary, decimal and hexadecimal numbers
+  **Answer: Task Completed.**
+  *The binary numbers are in "base 2" and start counting from 0, and then 1, but increase by 1 the number on the left. For example: 000, 001, 010...*
+  *Decimal numbers are used to represent numbers smaller than the unit, and are written to the right of the Units separated by a comma. For example: Hundreds Tens Units , Tenths Thousandths*
+  *Hexadecimal numbers use the 16-digit base. These are like decimals up to 9, but then the letters ("A', "B", "C", "D", "E", "F") are included for values from 10 to 15. So with a single figure, this system can give 16 different values instead of the 10 common ones. For example: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F*
+  
+### Translate the year you were born to binary, decimal, and hexadecimal
+  **Answer: Task Completed.**
+  ``
+..................................
+|Division | Quotient |  Binary   |
+|by 16    | integer  | remainder |
+|---------|----------|-----------|
+| 1999/2  |   999    |     1     |
+| 999/2   |   499    |     1     |
+| 499/2   |   249    |     1     |
+| 249/2   |   124    |     1     |
+| 124/2   |   62     |     0     |
+| 62/2    |   31     |     0     |
+| 31/2    |   15     |     1     |
+| 15/2    |   7      |     1     |
+| 7/2     |   3      |     1     |
+| 3/2     |   1      |     1     |
+| 1/2     |   0      |     1     |
+|---------|----------|-----------|
+[The value in binary is: 11111001111]
+
+..................................................
+|Division | Quotient |           |               |
+|by 16    | integer  |  Decimal  |  Hexadecimal  |
+|---------|----------|-----------|---------------|
+| 1999/16 |   124    |    15     |     F         |
+| 124/16  |   7	     |    12     |     C         |
+| 7/16	   |   0	     |    7      |     7         |
+|---------|----------|-----------|---------------|
+[The value in hexadec is: 7CF]
+  ``
