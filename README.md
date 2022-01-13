@@ -5,10 +5,8 @@
 
 #### Desafío 1: video sobre compilación e interpretación.
    **Respuesta: Tarea completada.**
-   *
-   La compilación: Proceso de traducción a través de un programa llamado compilador, este crea un archivo independiente que no necesita ningún otro programa para ejecutarse a sí mismo. 
-   Interpretación: Programa que ejecuta el código fuente que acaba de ser traducido a una forma intermedia, o puede hacer referencia al programa que lleva a cabo tanto la traducción como la ejecución.
-   *
+   *La compilación: Proceso de traducción a través de un programa llamado compilador, este crea un archivo independiente que no necesita ningún otro programa para ejecutarse a sí mismo. 
+   Interpretación: Programa que ejecuta el código fuente que acaba de ser traducido a una forma intermedia, o puede hacer referencia al programa que lleva a cabo tanto la traducción como la ejecución.*
             
 #### Desafío 2: ¿El lenguaje Java se compila o interpreta?.
    **Respuesta: Tarea completada.**
