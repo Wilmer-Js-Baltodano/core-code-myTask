@@ -95,8 +95,7 @@ FinAlgoritmo
   
 ### Translate the year you were born to binary, decimal, and hexadecimal
   **Answer: Task Completed.**
-  ``
-
+  
 | Division by 2 | Quotient integer | Binary remainder |
 |---------------|------------------|------------------|
 | 1999 / 2      |     999          |       1          |
@@ -121,4 +120,37 @@ FinAlgoritmo
 | 7 / 16	        |     0	           |       7           |       7               |
 
 [The value in hexadec is: 7CF]
-  ``
+
+### Translate 51966 into hexadecimal and binary.
+  **Answer: Task Completed.**
+
+| Division by 2 | Quotient integer | Binary remainder |
+|---------------|------------------|------------------|
+| 51966 / 2     |=     25983       |       0          |
+| 25983 / 2     |=     12991       |       1          |
+| 12991 / 2     |=     6495        |       1          |
+| 6495  / 2     |=     3247        |       1          |
+| 3247  / 2     |=     1623        |       1          |
+| 1623 / 2      |=     811         |       1          |
+| 811  / 2      |=     405         |       1          |
+| 405  / 2      |=     202         |       1          |
+| 202  / 2      |=     101         |       0          |
+| 101 / 2       |=     50          |       1          |
+| 50 / 2        |=     25          |       0          |
+| 25 / 2        |=     12          |       1          |
+| 12 / 2        |=     6           |       0          |
+| 6  / 2        |=     3           |       0          |
+| 3  / 2        |=     1           |       1          |
+| 1  / 2        |=     0           |       1          |
+
+[The value in hexadec is: 1100101011111110]
+
+| Division by 16 | Quotient integer | Decimal remainder | Hexadecimal remainder |
+|----------------|------------------|-------------------|-----------------------|
+| 51966 / 16     |     3247         |       14          |          E            |
+| 3247 / 16      |     202	    |       15          |          F            |
+| 202 / 16	 |     12	    |       10          |          A            |
+| 12 / 16	 |     0	    |       12          |          C            |
+
+[The value in hexadec is: CAFE]
+
