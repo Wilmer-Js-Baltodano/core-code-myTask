@@ -1,6 +1,6 @@
 # core-code-myTask
 
-# Challenges of the week (Tuesday)💻--------------------------------------------------------
+# Challenges of the week (Tuesday)💻--------------------------
 
 ### Challenge 1: video compilation and interpretation.
   **Answer: Task Completed.**
@@ -85,15 +85,15 @@ FinAlgoritmo
   Low-Level: They are totally machine-dependent languages, meaning that the program that is performed with this type of language cannot be migrated or used in other machines.*
 
 
-# Challenges of the week (Wednesday) 💻--------------------------------------------------------
+# Challenges of the week (Wednesday) 💻--------------------------
 
-### More information on binary, decimal and hexadecimal numbers
+### Challenge 1: More information on binary, decimal and hexadecimal numbers
   **Answer: Task Completed.**
   *The binary numbers are in "base 2" and start counting from 0, and then 1, but increase by 1 the number on the left. For example: 000, 001, 010...*
   *Decimal numbers are used to represent numbers smaller than the unit, and are written to the right of the Units separated by a comma. For example: Hundreds Tens Units , Tenths Thousandths*
   *Hexadecimal numbers use the 16-digit base. These are like decimals up to 9, but then the letters ("A', "B", "C", "D", "E", "F") are included for values from 10 to 15. So with a single figure, this system can give 16 different values instead of the 10 common ones. For example: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F*
   
-### Translate the year you were born to binary, decimal, and hexadecimal
+### Challenge 2: Translate the year you were born to binary, decimal, and hexadecimal
   **Answer: Task Completed.**
   
 | Division by 2 | Quotient integer | Binary remainder |
@@ -121,7 +121,7 @@ FinAlgoritmo
 
 [The value in hexadec is: 7CF]
 
-### Translate 51966 into hexadecimal and binary.
+### Challenge 3: Translate 51966 into hexadecimal and binary.
   **Answer: Task Completed.**
 
 | Division by 2 | Quotient integer | Binary remainder |
@@ -154,3 +154,62 @@ FinAlgoritmo
 
 [The value in hexadec is: CAFE]
 
+### Challenge 4: Use a Low-level language, for example MIPS aseembler.
+  **Answer: Task Completed.**
+  
+- 5.1 Create a program to add two numbers given by the user
+``
+.data
+	title: .asciiz "\n CALCULADORA \n" 
+	firstNum: .asciiz "\nDigite el primer número: "
+	secondNum: .asciiz "\nnDigite el segundo número: "
+        result: .asciiz "\nEl resultado es: "
+.text 
+
+	main:
+	# Mostramos el título del sistema
+		li $v0, 4
+		la $a0, title
+	syscall
+	
+	# se solicita el primer valor numérico
+		li $v0, 4
+		la $a0, firstNum
+	syscall 
+	# capturamos el primer número
+	li $v0, 5
+	syscall 
+	# el comando move: nos permitirá mover el valor a otro registro.
+	move $t0, $v0
+	
+	#----------------------------------------------------------------
+	
+	# se solicita el segundo valor numérico
+		li $v0, 4
+		la $a0, secondNum
+	syscall 
+	
+	# capturamos el primer número
+		li $v0, 5
+	syscall 
+	
+	# repetimos, movemos el segundo valor a otro registro.
+	move $t1, $v0
+	
+	# Procedemos a realizar el cálculo y almacenamos el resultado en t$2
+	add $t2, $t0, $t1
+	
+		# Mostramos el mensaje "El resultado es:"
+		li $v0, 4
+		la $a0, result
+		syscall 
+	
+		# mostramos el resultado de la operación
+		li $v0, 1
+		move $a0, $t2
+	syscall
+``
+- 5.2 Create a program that display your name
+``
+
+``
