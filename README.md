@@ -259,15 +259,17 @@ FinAlgoritmo
 
 ### Challenge 1: Applications that use Javascript.
   **Answer: Task Completed.**
+  
   *Canvascape: Game in first person (Doom style) that gives proof of the power of this technology.*
+  
   *MSX Emulator: This project shows the true power of javascript (it was an 8-bit microcomputer architecture) that includes the possibility of loading and running the roms.*
   
 ### Challenge 2: Video about the history of the internet
   **Answer: Task Completed.**
   *History of the Internet: It all started as an idea of a computer network created to allow general communication between users of multiple computers. The infrastructure of this idea spread throughout the world, to create the modern global computer network that we now know as the internet.*
   
-### Challenge 2: Video about the triumph of the Nerds
-  **Answer: Task Completed.**
+### Challenge 3: Video about the triumph of the Nerds
+  *Answer: Task Completed.*
 
-  ### Challenge 2: Video about the history of the internet
+### Challenge 4: Video about the history of the internet
   *Answer: Task Completed.*
