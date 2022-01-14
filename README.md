@@ -161,7 +161,7 @@ FinAlgoritmo
   
  ### Challenge 5: Based on the examples and guidance on the low-level language:
 - 5.1 Create a program to add two numbers given by the user
-``
+```
 .data
 	title: .asciiz "\n CALCULADORA \n" 
 	firstNum: .asciiz "\nDigite el primer número: "
@@ -211,9 +211,10 @@ FinAlgoritmo
 		li $v0, 1
 		move $a0, $t2
 	syscall
-``
+```
+
 - 5.2 Create a program that display your name
-``
+```
 .data
        name: .asciiz "\n Nombre del usuario: \n Wilmer \n"
        birthday: .asciiz "\nIngrese su año de nacimiento: "
@@ -252,7 +253,7 @@ FinAlgoritmo
 		li $v0, 1
 		move $a0, $t3
 	syscall
-``
+```
 
 # Challenges of the week (Thursday) 💻----------
 
