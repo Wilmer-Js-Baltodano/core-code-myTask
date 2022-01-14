@@ -1,6 +1,6 @@
 # core-code-myTask
 
-# Challenges of the week (Tuesday)💻--------------------------
+# Challenges of the week (Tuesday)💻----------
 
 ### Challenge 1: video compilation and interpretation.
   **Answer: Task Completed.**
@@ -85,7 +85,7 @@ FinAlgoritmo
   Low-Level: They are totally machine-dependent languages, meaning that the program that is performed with this type of language cannot be migrated or used in other machines.*
 
 
-# Challenges of the week (Wednesday) 💻--------------------------
+# Challenges of the week (Wednesday) 💻----------
 
 ### Challenge 1: More information on binary, decimal and hexadecimal numbers
   **Answer: Task Completed.**
@@ -156,7 +156,10 @@ FinAlgoritmo
 
 ### Challenge 4: Use a Low-level language, for example MIPS aseembler.
   **Answer: Task Completed.**
+  *Reading the completed guide.*
+  *Reading of the completed presentation. *
   
+ ### Challenge 5: Based on the examples and guidance on the low-level language:
 - 5.1 Create a program to add two numbers given by the user
 ``
 .data
@@ -167,49 +170,103 @@ FinAlgoritmo
 .text 
 
 	main:
-	##### Mostramos el título del sistema
+	// Mostramos el título del sistema
 		li $v0, 4
 		la $a0, title
 	syscall
 	
-	##### se solicita el primer valor numérico
+	// se solicita el primer valor numérico
 		li $v0, 4
 		la $a0, firstNum
 	syscall 
-	##### capturamos el primer número
+	// capturamos el primer número
 	li $v0, 5
 	syscall 
-	##### el comando move: nos permitirá mover el valor a otro registro.
+	// el comando move: nos permitirá mover el valor a otro registro.
 	move $t0, $v0
 	
-	#####----------------------------------------------------------------
+	//--------------------------
 	
-	##### se solicita el segundo valor numérico
+	//se solicita el segundo valor numérico
 		li $v0, 4
 		la $a0, secondNum
 	syscall 
 	
-	##### capturamos el primer número
+	// capturamos el primer número
 		li $v0, 5
 	syscall 
 	
-	##### repetimos, movemos el segundo valor a otro registro.
+	// repetimos, movemos el segundo valor a otro registro.
 	move $t1, $v0
 	
-	##### Procedemos a realizar el cálculo y almacenamos el resultado en t$2
+	// Procedemos a realizar el cálculo y almacenamos el resultado en t$2
 	add $t2, $t0, $t1
 	
-		##### Mostramos el mensaje "El resultado es:"
+		// Mostramos el mensaje "El resultado es:"
 		li $v0, 4
 		la $a0, result
 		syscall 
 	
-		##### mostramos el resultado de la operación
+		// mostramos el resultado de la operación
 		li $v0, 1
 		move $a0, $t2
 	syscall
 ``
 - 5.2 Create a program that display your name
 ``
-
+.data
+       name: .asciiz "\n Nombre del usuario: \n Wilmer \n"
+       birthday: .asciiz "\nIngrese su año de nacimiento: "
+       result: .asciiz "\n su edad es: "
+.text
+	main:
+	li $t2, 2022 
+	
+	// solicitamos el nombre de usuario
+		li $v0, 4
+		la $a0, name
+	syscall 
+		
+	//--------------------------
+	
+	// solicitamos el año de nacimiento del usuario
+		li $v0, 4
+		la $a0, birthday
+	syscall 
+	
+	// capturamos ese dato ingresado
+		li $v0, 5
+	syscall 
+	
+	// movemos el valor a otro registro(t1).
+	move $t1, $v0
+	
+	// Mostramos el mensaje
+		li $v0, 4
+		la $a0, result
+	syscall 
+	
+	sub $t3, $t2, $t1 // realizamos la resta usando el comando (sub)
+	
+	// mostramos el resultado de la operación, edad del usuario
+		li $v0, 1
+		move $a0, $t3
+	syscall
 ``
+
+# Challenges of the week (Thursday) 💻----------
+
+### Challenge 1: Applications that use Javascript.
+  **Answer: Task Completed.**
+  *Canvascape: Game in first person (Doom style) that gives proof of the power of this technology.*
+  *MSX Emulator: This project shows the true power of javascript (it was an 8-bit microcomputer architecture) that includes the possibility of loading and running the roms.*
+  
+### Challenge 2: Video about the history of the internet
+  **Answer: Task Completed.**
+  *History of the Internet: It all started as an idea of a computer network created to allow general communication between users of multiple computers. The infrastructure of this idea spread throughout the world, to create the modern global computer network that we now know as the internet.*
+  
+### Challenge 2: Video about the triumph of the Nerds
+  **Answer: Task Completed.**
+
+  ### Challenge 2: Video about the history of the internet
+  *Answer: Task Completed.*
