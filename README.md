@@ -167,44 +167,44 @@ FinAlgoritmo
 .text 
 
 	main:
-	# Mostramos el título del sistema
+	##### Mostramos el título del sistema
 		li $v0, 4
 		la $a0, title
 	syscall
 	
-	# se solicita el primer valor numérico
+	##### se solicita el primer valor numérico
 		li $v0, 4
 		la $a0, firstNum
 	syscall 
-	# capturamos el primer número
+	##### capturamos el primer número
 	li $v0, 5
 	syscall 
-	# el comando move: nos permitirá mover el valor a otro registro.
+	##### el comando move: nos permitirá mover el valor a otro registro.
 	move $t0, $v0
 	
-	#----------------------------------------------------------------
+	#####----------------------------------------------------------------
 	
-	# se solicita el segundo valor numérico
+	##### se solicita el segundo valor numérico
 		li $v0, 4
 		la $a0, secondNum
 	syscall 
 	
-	# capturamos el primer número
+	##### capturamos el primer número
 		li $v0, 5
 	syscall 
 	
-	# repetimos, movemos el segundo valor a otro registro.
+	##### repetimos, movemos el segundo valor a otro registro.
 	move $t1, $v0
 	
-	# Procedemos a realizar el cálculo y almacenamos el resultado en t$2
+	##### Procedemos a realizar el cálculo y almacenamos el resultado en t$2
 	add $t2, $t0, $t1
 	
-		# Mostramos el mensaje "El resultado es:"
+		##### Mostramos el mensaje "El resultado es:"
 		li $v0, 4
 		la $a0, result
 		syscall 
 	
-		# mostramos el resultado de la operación
+		##### mostramos el resultado de la operación
 		li $v0, 1
 		move $a0, $t2
 	syscall
