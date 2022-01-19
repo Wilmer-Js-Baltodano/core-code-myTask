@@ -273,10 +273,10 @@ FinAlgoritmo
 
 ### Challenge 4: github course
   *Answer: Task Completed.*
-    -Courses
+-Courses
      Git: Git course reviewed and in practice.
-    -Videos
+-Videos
      Clean Code: Clean code video completed
-    -Articles
+-Articles
      Markdown Cheat Sheet: The page about Markdown Cheat Sheet reviewed.
      React Introduction: The introduction page to React has been completely revised.
