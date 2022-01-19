@@ -271,5 +271,12 @@ FinAlgoritmo
 ### Challenge 3: Video about the triumph of the Nerds
   *Answer: Task Completed.*
 
-### Challenge 4: Video about the history of the internet
+### Challenge 4: github course
   *Answer: Task Completed.*
+    -Courses
+     Git: Git course reviewed and in practice.
+    -Videos
+     Clean Code: Clean code video completed
+    -Articles
+     Markdown Cheat Sheet: The page about Markdown Cheat Sheet reviewed.
+     React Introduction: The introduction page to React has been completely revised.
